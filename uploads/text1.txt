@@ -1,0 +1,37 @@
+For this assignment each partner needs to submit their own repository that is in sync with their partner.  You should create issues as necessary to divide up work and link the issue to the commit through the message.
+
+Step 1:
+
+Move the signin sheet on its own page and linked to on the readme.  Practice moving code between forks. It doesn't matter which repo you create issues on you can create them on your own and don't forget to link the commit with the issue.
+
+Practice this process:
+
+1.  Make a commit and push to your own repo.  One person should put their name down on the signin sheet.
+
+2.  Go to GitHub and make a pull request and click the link for "compare across forks" select the destination (your partners repo) and the source on the right.  You will notice that when you select the destination on the left it will change which repo your viewing.  Anyone can make a pull request but only the owner of the repository can merge the pull request.
+
+3.  Merge the pull request 
+
+4.  Download the updated repo
+
+5.  Make a new change like adding your name to the signin sheet
+
+6.  Repeat step 2 but make the pull request for the other parters repo.  
+
+7.  Merge the new pull request
+
+8.  Repeat this process to send changes back and forth between you and your partner like playing ping pong.  Use branches next time so you can pick and choose what's being merged in the pull request.  You want to merge small complete units of work as best as you can.
+
+Step 2:
+
+Your readme needs to have the following links to markdown document files as described.  I want you to search for each type of document and research examples of the documents to create your own version.  Do not copy the examples, just adapt it for your own needs.  These are the proper terms for the documents but there is no correct form of the document, the document should meet the minimum requirements of your project.  This is your initial draft of these documents and you should keep them updated as you work on the project.   This is only graded as complete / incomplete and the final evaluation will be done when the project is submitted at the end.   
+
+1.  Competitive Analysis (Archetype and Methods of Persuasion) for 3 competitors of your chosen business /product
+
+2.  SWOT Analysis - Identify the Strengths Weaknesses Oportunities, and Threats for your own business to describe your ideas of how your business will more effectively use their brand archetype and methods of persuasion. 
+
+3.  One Persona that represents one target customer that you are targeting with your archetype and methods of persuasion.
+
+4.  Customer Journey or Sales Funnel describing how your business site will operate at a high level to address the Sales Funnel stages
+
+5.  Initial set of user stories at the Initiative and Epic level.
