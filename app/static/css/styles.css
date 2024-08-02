@@ -1,0 +1,21 @@
+/* app/static/css/styles.css */
+
+body {
+    padding: 20px;
+  }
+  
+  .qa-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .feedback {
+    margin-top: 10px;
+  }
+  
+  #feedback-form {
+    margin-top: 10px;
+  }
+  

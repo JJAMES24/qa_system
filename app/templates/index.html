@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QA System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QA System</h1>
+    <form action="/ask" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="question">Question:</label>
+        <input type="text" id="question" name="question" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="file">Choose a file:</label>
+        <input type="file" id="file" name="file" accept=".txt, .docx, .pdf" class="form-control-file" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    {% if document_answer %}
+      <h2>Document Answer:</h2>
+      <p>{{ document_answer }}</p>
+    {% endif %}
+    {% if wikipedia_answer %}
+      <h2>Wikipedia Answer:</h2>
+      <p>{{ wikipedia_answer }}</p>
+    {% endif %}
+    <div id="qa-container">
+      <div class="qa-item">
+        <p><strong>Question:</strong> What is the purpose of this document?</p>
+        <p><strong>Answer:</strong> research examples of the documents to create your own version</p>
+        <div class="feedback">
+          <button class="btn btn-success" onclick="submitFeedback('up')">👍</button>
+          <button class="btn btn-danger" onclick="submitFeedback('down')">👎</button>
+          <form id="feedback-form" style="display:none;">
+            <textarea id="feedback-text" placeholder="Provide detailed feedback here..."></textarea>
+            <button type="button" onclick="submitDetailedFeedback()">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QA System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QA System</h1>
+    <form id="qa-form">
+      <div class="form-group">
+        <label for="question">Question:</label>
+        <input type="text" id="question" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" class="form-control" accept=".txt,.pdf,.docx" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div id="qa-container">
+      <!-- Results will be displayed here -->
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
